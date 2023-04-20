@@ -8,6 +8,7 @@ export const Todos = (props) => {
       <TodoItem todo={props.todos[0]} /><hr />
       <TodoItem todo={props.todos[1]} /><hr />
       <TodoItem todo={props.todos[2]} /><hr />
+      {/* here we are going to add the javascript loop */}
     </div>
   )
 }
